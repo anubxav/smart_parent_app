@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
     //it requires 3 parameters
     //context, orientation, device
     //it always requires, see plugin documentation
-    return Sizer(builder: (context, orientation, device){
+    return Sizer(builder: (context, orientation, device) {
       return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'School Brain',
+        title: 'Smart Parent App',
         theme: CustomTheme().baseTheme,
         //initial route is splash screen
         //mean first screen
